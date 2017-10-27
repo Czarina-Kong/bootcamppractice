@@ -1,0 +1,42 @@
+/*
+
+h1{
+	background-color: #bbbbbb;
+	font-size: 80px;
+}
+
+h1:hover{
+	background-color: black;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	font-size: 40px;
+	color: darkgrey;
+}
+
+a:hover{
+	background-color: red;
+	font-size: 60px;
+	transition: all 1s;
+}*/
+
+a{
+	font-size: 40px;
+}
+
+.active:active{
+	background-color: red;
+	color: black;
+	font-size: 60px;
+}
+
+.hover:hover{
+	background-color: blue;
+	color: white;
+}
+
+.focus:focus{
+	font-weight: bolder;
+}

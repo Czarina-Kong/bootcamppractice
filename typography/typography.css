@@ -1,0 +1,32 @@
+/*.fontfamily{
+	font-family: Verdana, Geneva, sans-serif;
+}*/
+
+/*Google Font*/
+.fontfamily{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.fontsize{
+	font-size: 40px;
+}
+
+.fontweight{
+	font-weight: bold;
+}
+
+.lineheight{
+	line-height: 150%;
+}
+
+.letterspacing{
+	letter-spacing: -2px;
+}
+
+.googlefonts1{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.googlefonts2{
+	font-family: 'Fascinate Inline', cursive;
+}
