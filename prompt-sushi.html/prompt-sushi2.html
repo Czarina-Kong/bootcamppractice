@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sushi Prompt - Unsolved</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+    	var confirmSushi = confirm("Do you like sushi?");
+    	var confirmGingerTea = confirm("Do you like Ginger Tea?");
+    	
+
+		// if the user likes sushi (confirmSushi==true), we run the following block of code,
+		if (confirmSushi){
+			var sushiType = prompt("What kind of sushi do you like?");
+			alert("you like " + sushiType + "!");
+		} if (confirmGingerTea){
+			alert ("you like Ginger Tea!");
+		} else if (!confirmSushi) {
+			document.write("You don't like sushi or ginger tea");
+		}
+
+    </script>
+
+  </body>
+</html>
