@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hard Loop</title>
+</head>
+<body>
+	<script>
+	var myFarm = ['chickens', 'pigs', 'cows', 'horses', 'ostriches'];
+	
+	for (var i = 0; i < myFarm.length; i++) {
+		console.log(myFarm[i]);
+		if (myFarm[i].charAt(0) === "c" || myFarm[i].charAt(0) === "o") {
+			alert("starts with a c or an o!")
+		}
+	}
+
+
+	</script>
+
+</body>
+</html>
