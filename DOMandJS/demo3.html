@@ -4,7 +4,7 @@
 	<title></title>
 </head>
 <body>
-	<div id = 'empty-div'></div>
+	<div id = "click-me">Click Me!</div>
 
 	<script
 	  src="https://code.jquery.com/jquery-3.2.1.js"
@@ -12,11 +12,11 @@
 	  crossorigin="anonymous"></script>
 
 	<script type="text/javascript">
-		// $('#empty-div').html('<h1>Hello Friends!!!</h1>');
-		// $('#empty-div').append('<p>A pleasure to meet you!</p>');
-		var emptyDiv = $('#empty-div');
-		emptyDiv.html('<h1>Hello Friends!!!</h1>');
-		emptyDiv.append('<p>A pleasure to meet you!</p>');
+		$(document).ready(function(){
+			$('#click-me').on('click', function(){
+				alert("I've been clicked!")
+			})
+		})
 	</script>
 
 </body>
