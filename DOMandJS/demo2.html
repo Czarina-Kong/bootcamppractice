@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<!-- 	<style type="text/css">
+		.fancy{
+		}
+	</style> -->
+</head>
+<body>
+	<div id="empty-div"></div>
+
+	<script type="text/javascript">
+
+		var targetDiv = document.getElementById('empty-div');
+
+		targetDiv.innerHTML = "<p>Hello students!</p>";
+
+		var newDiv = document.createElement("div");
+		
+		newDiv.innerHTML = "A pleasure to meet you!";
+
+		targetDiv.appendChild(newDiv);
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>scope-examples</title>
+</head>
+<body>
+	<h1>Open the console to see the magic!</h1>
+
+	<script type="text/javascript">
+		var exposed = 'this string is visible everywhere!'
+
+		var firstFunction = function(message){
+			var name = 'charlie'
+			console.log (message + exposed)
+		}
+
+		firstFunction('oh my! ')
+
+		var secondFunction = function(arr){
+			var exposed = "this isn't what I thought I wrote... "
+			console.log('exposed in secondFunction', exposed)
+			console.log(arr)
+		}
+
+		var thirdFucntion = function(message){
+			return exposed + message
+		}
+
+		var message = thirdFunction('oh my!')
+		console.log(message)
+
+		v
+	</script>
+
+</body>
+</html>
